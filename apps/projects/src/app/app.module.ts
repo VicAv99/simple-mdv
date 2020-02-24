@@ -7,9 +7,12 @@ import { MaterialModule } from '@workspace/material';
 import { UiToolbarModule } from '@workspace/ui-toolbar';
 
 import { AppComponent } from './app.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsListComponent } from './projects/projects-list/projects-list.component';
+import { ProjectsDetailsComponent } from './projects/projects-details/projects-details.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ProjectsComponent, ProjectsListComponent, ProjectsDetailsComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
