@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { CoreDataModule } from '@workspace/core-data';
@@ -16,6 +17,8 @@ import { ProjectsDetailsComponent } from './projects/projects-details/projects-d
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     CoreDataModule,
     MaterialModule,
     UiToolbarModule
